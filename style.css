@@ -334,26 +334,6 @@ h3.my-profession {
   position: relative;
 }
 
-.home-img::after {
-  content: "";
-  position: absolute;
-  height: 80px;
-  width: 80px;
-  border-bottom: 10px solid var(--skin-color);
-  border-right: 10px solid var(--skin-color);
-  right: 20px;
-  bottom: -40px;
-}
-.home-img::before {
-  content: "";
-  position: absolute;
-  height: 80px;
-  width: 80px;
-  border-left: 10px solid var(--skin-color);
-  border-top: 10px solid var(--skin-color);
-  left: 20px;
-  top: -40px;
-}
 .home .home-img img {
   margin: auto;
   border-radius: 10px;
@@ -537,10 +517,10 @@ h3.my-profession {
   text-transform: capitalize;
   color: var(--text-black-900);
 }
-.about .about-content .timeline .timeline-title a{
+.about .about-content .timeline .timeline-title a {
   color: var(--text-black-900);
 }
-.about .about-content .timeline .timeline-title a:hover{
+.about .about-content .timeline .timeline-title a:hover {
   color: var(--skin-color);
 }
 .about .about-content .timeline .timeline-text {
@@ -783,13 +763,6 @@ h3.my-profession {
   .home .home-img img {
     width: 50%;
     height: auto;
-  }
-
-  .home .home-img::before{
-display: none;
-  }
-  .home .home-img::after{
-    display: none;
   }
 }
 
