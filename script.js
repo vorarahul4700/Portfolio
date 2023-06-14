@@ -26,7 +26,7 @@ for (let i = 0; i < totalNavList; i++) {
 
     for (let j = 0; j < totalNavList; j++) {
       if (navList[j].querySelector("a").classList.contains("active")) {
-        addBackSection(j );
+        addBackSection(j);
         // allSection[j].classList.add("back-section");
       }
       navList[j].querySelector("a").classList.remove("active");
@@ -93,3 +93,41 @@ function asideSectionTogglerBtn() {
     allSection[i].classList.toggle("open");
   }
 }
+
+// Project data array
+var projects = [
+  { image: "project.png" },
+  { image: "project.png" },
+  { image: "project.png" },
+  // Add more projects as needed
+];
+
+// Function to generate portfolio items dynamically
+function generatePortfolioItems() {
+  var portfolioItemsContainer = document.getElementById("portfolio-items");
+
+  for (var i = 0; i < projects.length; i++) {
+    var project = projects[i];
+
+    var portfolioItem = document.createElement("div");
+    portfolioItem.className = "portfolio-item padd-15";
+
+    var portfolioItemInner = document.createElement("div");
+    portfolioItemInner.className = "portfolio-item-inner shadow-dark";
+
+    var portfolioImg = document.createElement("div");
+    portfolioImg.className = "portfolio-img";
+
+    var img = document.createElement("img");
+    img.src = project.image;
+    img.alt = "";
+
+    portfolioImg.appendChild(img);
+    portfolioItemInner.appendChild(portfolioImg);
+    portfolioItem.appendChild(portfolioItemInner);
+    portfolioItemsContainer.appendChild(portfolioItem);
+  }
+}
+
+// Call the function to generate portfolio items
+generatePortfolioItems();
