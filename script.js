@@ -70,6 +70,8 @@ function updateNav(element) {
   }
 }
 
+//on click hire button redirect to the contact page
+
 document.querySelector(".hire-me").addEventListener("click", function () {
   const sectoinIndex = this.getAttribute("data-action-index");
 
@@ -78,6 +80,8 @@ document.querySelector(".hire-me").addEventListener("click", function () {
   removeBackSection();
   addBackSection(sectoinIndex);
 });
+
+//aside button toggler 
 
 const navTogglerBtm = document.querySelector(".nav-toggler"),
   aside = document.querySelector(".aside");
