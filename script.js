@@ -70,6 +70,8 @@ function updateNav(element) {
   }
 }
 
+//on click hire button redirect to the contact page
+
 document.querySelector(".hire-me").addEventListener("click", function () {
   const sectoinIndex = this.getAttribute("data-action-index");
 
@@ -78,6 +80,8 @@ document.querySelector(".hire-me").addEventListener("click", function () {
   removeBackSection();
   addBackSection(sectoinIndex);
 });
+
+//aside button toggler 
 
 const navTogglerBtm = document.querySelector(".nav-toggler"),
   aside = document.querySelector(".aside");
@@ -96,9 +100,15 @@ function asideSectionTogglerBtn() {
 
 // Project data array
 var projects = [
+<<<<<<< HEAD
   { image: "Project 1 mockup.png" },
   { image: "Project 1 mockup.png" },
   { image: "Project 1 mockup.png" },
+=======
+  { image: "project.png" },
+  { image: "project.png" },
+  { image: "project.png" },
+>>>>>>> df54c800e533484e39a77e69ec9e0b0ba036f076
   // Add more projects as needed
 ];
 
