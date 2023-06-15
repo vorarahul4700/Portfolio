@@ -100,16 +100,10 @@ function asideSectionTogglerBtn() {
 
 // Project data array
 var projects = [
-<<<<<<< HEAD
   { image: "Project 1 mockup.png" },
   { image: "Project 1 mockup.png" },
   { image: "Project 1 mockup.png" },
-=======
-  { image: "project.png" },
-  { image: "project.png" },
-  { image: "project.png" },
->>>>>>> df54c800e533484e39a77e69ec9e0b0ba036f076
-  // Add more projects as needed
+// Add more projects as needed
 ];
 
 // Function to generate portfolio items dynamically
