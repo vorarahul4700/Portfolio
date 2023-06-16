@@ -81,7 +81,7 @@ document.querySelector(".hire-me").addEventListener("click", function () {
   addBackSection(sectoinIndex);
 });
 
-//aside button toggler 
+//aside button toggler
 
 const navTogglerBtm = document.querySelector(".nav-toggler"),
   aside = document.querySelector(".aside");
@@ -103,7 +103,7 @@ var projects = [
   { image: "Project 1 mockup.png" },
   { image: "Project 1 mockup.png" },
   { image: "Project 1 mockup.png" },
-// Add more projects as needed
+  // Add more projects as needed
 ];
 
 // Function to generate portfolio items dynamically

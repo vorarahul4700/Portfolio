@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;500;600;700&display=swap");
-
 :root {
   --bg-black-900: #f2f2fc;
   --bg-black-100: #fdf9ff;
@@ -16,13 +15,11 @@ body.dark {
   --text-black-700: #e9e9e9;
   --skin-color: #ff1e1e;
 }
-
 body {
   line-height: 1.5;
   font-size: 16px;
   font-family: "poppins" sans-serif;
 }
-
 * {
   margin: 0;
   padding: 0;
@@ -30,12 +27,10 @@ body {
   text-decoration: none;
   box-sizing: border-box;
 }
-
 ::before,
 ::after {
   box-sizing: border-box;
 }
-
 ul {
   list-style: none;
 }
@@ -58,7 +53,6 @@ ul {
 .section.back-section {
   z-index: 1;
 }
-
 .section.active {
   z-index: 2;
   opacity: 1;
@@ -72,22 +66,18 @@ ul {
     transform: translateX(0%);
   }
 }
-
 .hidden {
   display: none !important;
 }
-
 .padd-15 {
   padding-left: 15px;
   padding-right: 15px;
 }
-
 .container {
   max-width: 1100px;
   width: 100%;
   margin: auto;
 }
-
 .section .container {
   padding-top: 60px;
   padding-bottom: 70px;
@@ -129,7 +119,6 @@ ul {
   margin-right: -15px;
   position: relative;
 }
-
 .btn {
   font-size: 16px;
   font-weight: 500;
@@ -145,11 +134,9 @@ ul {
 .btn:hover {
   transform: scale(1.05);
 }
-
 .shadow-dark {
   box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
 }
-
 /* aside  */
 .aside {
   width: 270px;
@@ -166,14 +153,12 @@ ul {
   z-index: 10;
   transition: all 0.3s ease;
 }
-
 .aside .logo {
   position: absolute;
   top: 50px;
   font-size: 30px;
   text-transform: capitalize;
 }
-
 .aside .logo a {
   color: var(--text-black-900);
   font-weight: 700;
@@ -182,12 +167,10 @@ ul {
   letter-spacing: 5px;
   position: relative;
 }
-
 .aside .logo a span {
   font-family: "clicker Script", cursive;
   font-size: 40px;
 }
-
 .aside .logo a::before {
   content: "";
   position: absolute;
@@ -198,7 +181,6 @@ ul {
   bottom: 0;
   left: 0;
 }
-
 .aside .logo a::after {
   content: "";
   position: absolute;
@@ -225,7 +207,6 @@ ul {
   justify-content: center;
   transition: all 0.3s ease;
 }
-
 .aside .nav-toggler span {
   height: 2px;
   width: 18px;
@@ -236,7 +217,6 @@ ul {
 .aside .nav-toggler.open span {
   background-color: transparent;
 }
-
 .aside .nav-toggler span::before {
   content: "";
   height: 2px;
@@ -246,7 +226,6 @@ ul {
   top: -6px;
   left: 0;
 }
-
 .aside .nav-toggler.open span::before {
   transform: rotate(45deg);
   top: 0;
@@ -271,7 +250,6 @@ ul {
   margin-bottom: 20px;
   display: block;
 }
-
 .aside .nav li a {
   font-size: 16px;
   font-weight: 600;
@@ -280,45 +258,36 @@ ul {
   color: var(--text-black-900);
   padding: 5px 15px;
 }
-
 .aside .nav li a.active {
   color: var(--skin-color);
 }
-
 .aside .nav li a i {
   margin-right: 15px;
 }
-
 /* Home  */
-
 .home {
   min-height: 100vh;
   display: flex;
   color: var(--text-black-900);
 }
-
 .home .home-info {
   flex: 0 0 60%;
   max-width: 60%;
 }
-
 h3.hello {
   font-size: 28px;
   margin: 15px 0;
 }
-
 h3.hello span {
   font-family: "Clicker Script", cursive;
   font-size: 30px;
   font-weight: 700;
   color: var(--skin-color);
 }
-
 h3.my-profession {
   font-size: 30px;
   margin: 15px 0;
 }
-
 .typing {
   color: var(--skin-color);
 }
@@ -333,20 +302,16 @@ h3.my-profession {
   text-align: center;
   position: relative;
 }
-
 .home .home-img img {
   margin: auto;
   border-radius: 10px;
-
   height: 400px;
 }
-
 /* About */
 .about .about-content {
   flex: 0 0 100%;
   max-width: 100%;
 }
-
 .about .about-content .about-text {
   flex: 0 0 100%;
   max-width: 100%;
@@ -357,28 +322,23 @@ h3.my-profession {
   font-weight: 700;
   color: var(--text-black-900);
 }
-
 .about .about-content .about-text h3 span {
   color: var(--skin-color);
 }
-
 .about .about-content .about-text p {
   font-size: 16px;
   line-height: 25px;
   color: var(--text-black-700);
 }
-
 .about .about-content .personal-info {
   flex: 0 0 60%;
   max-width: 60%;
   margin-top: 40px;
 }
-
 .about .about-content .personal-info .info-item {
   flex: 0 0 50%;
   max-width: 50%;
 }
-
 .about .about-content .personal-info .info-item p {
   font-weight: 600;
   padding: 10px 0;
@@ -386,14 +346,12 @@ h3.my-profession {
   color: var(--text-black-900);
   border-bottom: 1px solid var(--bg-black-50);
 }
-
 .about .about-content .personal-info .info-item p span {
   font-weight: 400;
   color: var(--text-black-700);
   margin-left: 4px;
   display: inline-block;
 }
-
 .about .about-content .personal-info .buttons {
   margin-top: 30px;
 }
@@ -405,12 +363,10 @@ h3.my-profession {
   max-width: 40%;
   margin-top: 40px;
 }
-
 .about .about-content .skills .skill-item {
   flex: 0 0 100%;
   max-width: 100%;
 }
-
 .about .about-content .skills .skill-item h5 {
   line-height: 40px;
   font-weight: 600;
@@ -436,7 +392,6 @@ h3.my-profession {
   border-radius: 4px;
   background-color: var(--skin-color);
 }
-
 .about .about-content .skills .skill-item .skill-percent {
   position: absolute;
   right: 0;
@@ -445,7 +400,6 @@ h3.my-profession {
   font-weight: 400;
   line-height: 40px;
 }
-
 .about .about-content .education,
 .about .about-content .certificate {
   flex: 0 0 100%;
@@ -458,12 +412,10 @@ h3.my-profession {
   font-weight: 700;
   color: var(--text-black-900);
 }
-
 .about .about-content .timeline-box {
   flex: 0 0 100%;
   max-width: 100%;
 }
-
 .about .about-content .timeline {
   background-color: var(--bg-black-100);
   padding: 30px 15px;
@@ -472,13 +424,11 @@ h3.my-profession {
   width: 100%;
   position: relative;
 }
-
 .about .about-content .timeline .timeline-item {
   position: relative;
   padding-left: 37px;
   padding-bottom: 50px;
 }
-
 .about .about-content .timeline .timeline-item:last-child {
   padding-bottom: 0;
 }
@@ -500,7 +450,6 @@ h3.my-profession {
   border-radius: 50%;
   background-color: var(--skin-color);
 }
-
 .about .about-content .timeline .timeline-date {
   font-weight: 400;
   font-size: 14px;
@@ -529,9 +478,7 @@ h3.my-profession {
   text-align: justify;
   color: var(--text-black-700);
 }
-
 /* service */
-
 .service .container {
   padding-bottom: 40px;
 }
@@ -540,7 +487,6 @@ h3.my-profession {
   flex: 0 0 33.33%;
   max-width: 33.33%;
 }
-
 .service .service-item .service-item-inner {
   background-color: var(--bg-black-100);
   border: 1px solid var(--bg-black-50);
@@ -552,7 +498,6 @@ h3.my-profession {
 .service .service-item .service-item-inner:hover {
   box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
 }
-
 .service .service-item .service-item-inner .icon {
   height: 60px;
   width: 60px;
@@ -562,22 +507,18 @@ h3.my-profession {
   text-align: center;
   transition: all 0.3s ease;
 }
-
 .service .service-item .service-item-inner .icon .fa {
   font-size: 30px;
   line-height: 60px;
   color: var(--skin-color);
 }
-
 .service .service-item .service-item-inner:hover .icon {
   background-color: var(--skin-color);
 }
-
 .service .service-item .service-item-inner:hover .icon .fa {
   font-size: 25px;
   color: #ffffff;
 }
-
 .service .service-item .service-item-inner h4 {
   font-size: 18px;
   margin-bottom: 15px;
@@ -585,56 +526,46 @@ h3.my-profession {
   font-weight: 700;
   text-transform: capitalize;
 }
-
 .service .service-item .service-item-inner p {
   font-size: 16px;
   color: var(--text-black-700);
   line-height: 25px;
 }
-
 /* portfolio */
 .portfolio .container {
   padding-bottom: 40px;
 }
-
 .portfolio .portfolio-heading {
   flex: 0 0 100%;
   max-width: 100%;
   margin-bottom: px;
 }
-
 .portfolio .portfolio-heading h2 {
   color: var(--text-black-900);
   font-weight: 900;
 }
-
 .portfolio .portfolio-item {
   flex: 0 0 33.33%;
   max-width: 33.33%;
   margin-bottom: 30px;
 }
-
 .portfolio .portfolio-item-inner {
   border: 6px solid var(--bg-black-100);
   border-radius: 10px;
   overflow: hidden;
   cursor: pointer;
 }
-
 .portfolio .portfolio-item-inner .portfolio-img img {
   width: 100%;
   display: block;
 }
-
 /* contact section */
-
 .contact-title {
   color: var(--skin-color);
   text-align: center;
   font-size: 25px;
   margin-bottom: 20px;
 }
-
 .contact-sub-title {
   color: var(--text-black-900);
   text-align: center;
@@ -647,16 +578,13 @@ h3.my-profession {
   text-align: center;
   margin-bottom: 60px;
 }
-
 .contact .contact-info-item .icon {
   display: inline-block;
 }
-
 .contact .contact-info-item .icon .fa {
   font-size: 25px;
   color: var(--skin-color);
 }
-
 .contact .contact-info-item h4 {
   font-size: 18px;
   font-weight: 700;
@@ -664,14 +592,12 @@ h3.my-profession {
   text-transform: capitalize;
   margin: 15px 0 5px;
 }
-
 .contact .contact-info-item p {
   font-size: 16px;
   line-height: 25px;
   color: var(--text-black-700);
   font-weight: 400;
 }
-
 .contact .contact-form {
   flex: 0 0 100%;
   max-width: 100%;
@@ -680,12 +606,10 @@ h3.my-profession {
   flex: 0 0 50%;
   max-width: 50%;
 }
-
 .contact .contact-form .col-12 {
   flex: 0 0 100%;
   max-width: 100%;
 }
-
 .contact .contact-form .form-item {
   margin-bottom: 30px;
 }
@@ -694,14 +618,12 @@ h3.my-profession {
   height: 50px;
   border-radius: 25px;
   background: var(--bg-black-100);
-
   border: 1px solid var(--bg-black-50);
   padding: 10px 25px;
   font-size: 16px;
   color: var(--text-black-700);
   transition: all 0.3s ease;
 }
-
 .contact .contact-form .form-item .form-control:focus {
   box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
 }
@@ -712,9 +634,7 @@ h3.my-profession {
   height: 50px;
   padding: 0 50px;
 }
-
 /* media queries */
-
 @media (max-width: 1199px) {
   .section .container {
     padding-top: 70px;
@@ -743,7 +663,6 @@ h3.my-profession {
     margin-left: 0;
   }
 }
-
 @media (max-width: 991px) {
   .contact .contact-info-item,
   .portfolio .portfolio-item,
@@ -751,7 +670,6 @@ h3.my-profession {
     flex: 0 0 50%;
     max-width: 50%;
   }
-
   .home .home-info {
     flex: 0 0 100%;
     max-width: 100%;
@@ -765,7 +683,6 @@ h3.my-profession {
     height: auto;
   }
 }
-
 @media (max-width: 767px) {
   .service .service-item,
   .contact .contact-info-item,
